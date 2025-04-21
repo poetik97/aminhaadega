@@ -1,1 +1,1 @@
-console.log('A Minha Adega - Site funcional');
+console.log('Site A Minha Adega carregado.');
