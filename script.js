@@ -1,0 +1,1 @@
+console.log('A Minha Adega - Site funcional');

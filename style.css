@@ -1,0 +1,8 @@
+body { font-family: 'Georgia', serif; background: #f9f6ec; margin: 0; padding: 0; }
+header { background: #fff; padding: 20px; }
+nav a { margin-right: 15px; text-decoration: none; color: #8b1d1d; }
+h2 { margin: 20px; }
+.pack { border: 1px solid #ddd; padding: 10px; margin: 20px; display: inline-block; width: 200px; vertical-align: top; }
+.pack img { width: 100%; height: auto; }
+.btn { background: #8b1d1d; color: white; padding: 10px; text-decoration: none; display: inline-block; margin-top: 10px; }
+footer { background: #fff; padding: 20px; text-align: center; }
