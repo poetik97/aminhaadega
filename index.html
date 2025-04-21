@@ -1,1 +1,78 @@
-Conteúdo de exemplo para index.html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Minha Adega</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>A Minha Adega</h1>
+    <nav>
+      <a href="#tintos">Tintos</a>
+      <a href="#brancos">Brancos</a>
+      <a href="#roses">Rosés</a>
+      <a href="#espumantes">Espumantes</a>
+      <a href="#porto">Porto</a>
+      <a href="#sobre">Sobre Nós</a>
+      <select id="language-select">
+        <option value="pt">PT</option>
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="de">DE</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section id="packs">
+      <h2 data-i18n="featured_packs">Packs em Destaque</h2>
+      <div class="pack">
+        <img src="images/pack-portugalamessa.jpg" alt="Pack Portugal à Mesa" />
+        <h3>Portugal à Mesa</h3>
+        <p>Inclui Aveleda Branco, Cartuxa Tinto e Vinho do Porto</p>
+        <p>€45,00</p>
+        <button>Ver pack</button>
+      </div>
+    </section>
+
+    <section id="tintos">
+      <h2 data-i18n="red_wines">Vinhos Tintos</h2>
+      <p>Lista de vinhos tintos portugueses...</p>
+    </section>
+
+    <section id="brancos">
+      <h2 data-i18n="white_wines">Vinhos Brancos</h2>
+      <p>Lista de vinhos brancos portugueses...</p>
+    </section>
+
+    <section id="roses">
+      <h2 data-i18n="rose_wines">Vinhos Rosés</h2>
+      <p>Lista de vinhos rosés portugueses...</p>
+    </section>
+
+    <section id="espumantes">
+      <h2 data-i18n="sparkling_wines">Espumantes</h2>
+      <p>Lista de espumantes portugueses...</p>
+    </section>
+
+    <section id="porto">
+      <h2 data-i18n="port_wines">Vinhos do Porto</h2>
+      <p>Lista de vinhos do Porto...</p>
+    </section>
+
+    <section id="sobre">
+      <h2 data-i18n="about_us">Sobre Nós</h2>
+      <p>Somos apaixonados por vinhos portugueses...</p>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="mailto:geral@aminhaadega.pt">geral@aminhaadega.pt</a></p>
+    <p>© A Minha Adega 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
