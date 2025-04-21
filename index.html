@@ -1,1 +1,50 @@
-<!DOCTYPE html><html lang='pt'><head><meta charset='UTF-8'><title>A Minha Adega</title></head><body><h1>Bem-vindo à A Minha Adega</h1></body></html>
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Minha Adega</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>A Minha Adega</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Tintos</a>
+      <a href="#">Brancos</a>
+      <a href="#">Rosés</a>
+      <a href="#">Espumantes</a>
+      <a href="#">Porto</a>
+      <a href="#">Sobre Nós</a>
+      <select id="langSwitcher">
+        <option value="pt">PT</option>
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="de">DE</option>
+      </select>
+    </nav>
+  </header>
+
+  <main>
+    <section class="destaques">
+      <h2 data-i18n="packs_destaque">Packs em Destaque</h2>
+      <div class="pack">
+        <img src="images/pack-portugalamesa.jpg" alt="Pack Portugal à Mesa" />
+        <h3>Portugal à Mesa</h3>
+        <p data-i18n="pack_portugal_mesa_desc">
+          Inclui Aveleda Branco, Cartuxa Tinto e Vinho do Porto
+        </p>
+        <p>€45,00</p>
+        <button data-i18n="ver_pack">Ver pack</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="mailto:geral@aminhaadega.pt">geral@aminhaadega.pt</a></p>
+    <p>&copy; A Minha Adega 2025</p>
+  </footer>
+</body>
+</html>

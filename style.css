@@ -1,1 +1,36 @@
-body { font-family: Arial; background: #f9f5f0; color: #333; }
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f2e8;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #444;
+}
+main {
+  padding: 20px;
+}
+.pack img {
+  width: 300px;
+  display: block;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  font-size: 14px;
+}
+button {
+  background: #822;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}

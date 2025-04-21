@@ -1,1 +1,5 @@
-{"welcome": "Welcome to A Minha Adega"}
+{
+  "packs_destaque": "Featured Packs",
+  "pack_portugal_mesa_desc": "Includes Aveleda White, Cartuxa Red and Port Wine",
+  "ver_pack": "See pack"
+}
