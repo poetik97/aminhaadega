@@ -1,1 +1,1 @@
-console.log('A Minha Adega finalizado');
+console.log('A minha adega loaded');
