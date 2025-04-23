@@ -1,1 +1,7 @@
-Conteúdo de exemplo para style.css
+body { margin: 0; font-family: 'Arial', sans-serif; background: #f8f5f0; }
+.banner { background-size: cover; background-position: center; }
+.btn { padding: 10px 20px; border-radius: 9999px; text-decoration: none; font-weight: bold; }
+.btn-bordô { background-color: #800020; color: white; }
+.grid-3cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 0; }
+.card { background: white; padding: 20px; border-radius: 10px; text-align: center; }
+.card img { max-width: 100%; height: auto; }
