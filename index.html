@@ -1,17 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>A Minha Adega</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header class="banner" style="background-image: url('images/banner-vinho.jpg'); padding: 60px; text-align: center; color: white;">
+  <!-- Banner principal -->
+  <header class="banner" style="background-image: url('images/banner-vinho.jpg'); padding: 60px; text-align: center; color: white; position: relative;">
     <h1>Bem-vindo à nossa loja de vinhos</h1>
     <p>Descubra packs exclusivos e vinhos selecionados</p>
-    <a href="packs/portugal-a-mesa.html" class="btn btn-bordô">Ver packs exclusivos</a>
+    <a href="packs/portugal-a-mesa.html" class="btn btn-bordo">Ver packs exclusivos</a>
   </header>
+
+  <!-- Descubra -->
+  <section class="intro">
+    <p>Descubra a nossa seleção dos melhores vinhos, cuidadosamente escolhidos para proporcionar experiências únicas</p>
+  </section>
+
+  <!-- Em destaque -->
+  <section id="destaque" class="grid-4cols">
+    <div class="card">
+      <img src="images/cartuxa-evora.jpg" alt="Cartuxa Évora Tinto"/>
+      <h3>Cartuxa Évora Tinto</h3>
+      <p>Castas: Touriga Nacional, Aragonez</p>
+      <span class="price">12,50€</span>
+      <button class="btn btn-bordo">Adicionar ao carrinho</button>
+    </div>
+    <div class="card">
+      <img src="images/adega-borba-branco.jpg" alt="Adega de Borba Branco"/>
+      <h3>Adega de Borba Branco</h3>
+      <p>Castas: Roupeiro, Antão Vaz</p>
+      <span class="price">8,99€</span>
+      <button class="btn btn-bordo">Adicionar ao carrinho</button>
+    </div>
+    <div class="card">
+      <img src="images/espumante-bruto.jpg" alt="Espumante Bruto"/>
+      <h3>Espumante Bruto</h3>
+      <p>Castas: Malvasia Fina</p>
+      <span class="price">16,00€</span>
+      <button class="btn btn-bordo">Adicionar ao carrinho</button>
+    </div>
+    <div class="card">
+      <img src="images/vale-da-verdade.jpg" alt="Vale da Verdade"/>
+      <h3>Vale da Verdade</h3>
+      <p>Castas: Arinto, Fernão Pires</p>
+      <span class="price">18,00€</span>
+      <button class="btn btn-bordo">Adicionar ao carrinho</button>
+    </div>
+  </section>
+
+  <!-- Menu lateral -->
+  <nav class="menu-lateral">
+    <ul>
+      <li><a href="tintos.html">Tintos</a></li>
+      <li><a href="brancos.html">Brancos</a></li>
+      <li><a href="roses.html">Rosés</a></li>
+      <li><a href="espumantes.html">Espumantes</a></li>
+      <li><a href="vinhos-do-porto.html">Portos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Packs -->
   <section id="packs" style="padding: 40px;">
     <h2>Packs Temáticos</h2>
     <div class="grid-3cols">
@@ -20,13 +71,17 @@
         <h3>Portugal à Mesa</h3>
         <p>Inclui: Aveleda Branco, Cartuxa Tinto, Porto Messias Tawny</p>
         <span class="price">45,00€</span>
-        <a href="packs/portugal-a-mesa.html" class="btn btn-bordô">Ver pack</a>
+        <a href="packs/portugal-a-mesa.html" class="btn btn-bordo">Ver pack</a>
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
   <footer style="padding: 20px; background: #222; color: #eee; text-align: center;">
     <p>© 2025 A Minha Adega — Todos os direitos reservados</p>
     <p>Email: geral@aminhaadega.pt</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,7 +1,55 @@
-body { margin: 0; font-family: 'Arial', sans-serif; background: #f8f5f0; }
-.banner { background-size: cover; background-position: center; }
-.btn { padding: 10px 20px; border-radius: 9999px; text-decoration: none; font-weight: bold; }
-.btn-bordô { background-color: #800020; color: white; }
-.grid-3cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 0; }
-.card { background: white; padding: 20px; border-radius: 10px; text-align: center; }
-.card img { max-width: 100%; height: auto; }
+body {
+  margin: 0;
+  font-family: serif;
+  background: #f8f5f0;
+}
+.banner {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner h1, .banner p, .banner .btn {
+  position: relative;
+  z-index: 1;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-bordo {
+  background-color: #800020;
+  color: white;
+}
+.grid-4cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background: #faf7f2;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+}
+.menu-lateral li {
+  margin: 10px 0;
+}
+.menu-lateral a {
+  text-decoration: none;
+  color: #333;
+}

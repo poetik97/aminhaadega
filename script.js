@@ -1,1 +1,1 @@
-Conteúdo de exemplo para script.js
+console.log('A Minha Adega finalizado');
