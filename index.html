@@ -1,68 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>A Minha Adega</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- NAV LATERAL + LOGO -->
-  <aside class="sidebar">
-    <div class="logo">
-      <img src="images/logo.png" alt="A Minha Adega" />
-    </div>
-    <nav>
-      <ul>
-        <li><a href="tintos.html">Tintos</a></li>
-        <li><a href="brancos.html">Brancos</a></li>
-        <li><a href="espumantes.html">Espumantes</a></li>
-        <li><a href="roses.html">Rosés</a></li>
-        <li><a href="portos.html">Porto</a></li>
-      </ul>
-    </nav>
-    <div class="lang-switcher">
-      <select>
-        <option value="pt">PT</option>
-        <option value="fr">FR</option>
-        <option value="de">DE</option>
-      </select>
-    </div>
-  </aside>
-
-  <!-- HERO -->
-  <header class="hero">
-    <div class="hero-content">
-      <h1>Bem-vindo à nossa loja de vinhos</h1>
-      <p>Descubra packs exclusivos e vinhos selecionados</p>
-      <a href="packs.html" class="btn">Ver packs exclusivos</a>
-    </div>
-  </header>
-
-  <!-- INTRO -->
-  <section class="intro">
-    <p>Descubra a nossa seleção dos melhores vinhos, cuidadosamente escolhidos para proporcionar experiências únicas.</p>
-  </section>
-
-  <!-- EM DESTAQUE (PACKS) -->
-  <section class="destaque-packs">
-    <h2>Em destaque</h2>
-    <div class="grid-2cols">
-      <!-- Pack Portugal à Mesa -->
-      <div class="pack-card">
-        <img src="images/pack-portugal.jpg" alt="Pack Portugal à Mesa" />
-        <h3>Portugal à Mesa</h3>
-        <span class="price">€ 45,00</span>
-        <a href="packs/portugal-a-mesa.html" class="btn">Ver pack</a>
-      </div>
-      <!-- Pack Douro -->
-      <div class="pack-card">
-        <img src="images/pack-douro.jpg" alt="Pack Douro" />
-        <h3>Pack Douro</h3>
-        <span class="price">€ 29,90</span>
-        <a href="packs/pack-douro.html" class="btn">Ver pack</a>
-      </div>
-    </div>
-  </section>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Minha Adega - Descubra e organize seus vinhos favoritos." />
+    <meta name="author" content="Seu Nome ou Empresa" />
+    <meta property="og:title" content="A Minha Adega" />
+    <meta property="og:description" content="Descubra e organize seus vinhos favoritos." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/logo.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>A Minha Adega</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
